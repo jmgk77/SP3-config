@@ -36,6 +36,10 @@ status_objects =
 
 [octoprint_compat]
 
+[power printer]
+type = klipper_device
+object_name = gcode_macro _DUMMY_POWER
+
 [history]
 
 [file_manager]
